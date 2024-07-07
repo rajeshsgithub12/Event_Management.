@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".EventDetails.Previous_EventDetails">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="LU SPORTS FEST"
+        android:fontFamily="serif"
+
+
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Opening 20th june, 2023 At: 10 am"
+        android:textSize="15sp"
+        android:layout_below="@+id/textView1"
+        android:fontFamily="serif"
+        android:padding="4dp"
+
+        />
+
+
+
+    <ImageView
+        android:id="@+id/superSix1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/previous_event_pafe"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+
+
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Event Organized By lUSC"
+        android:textSize="20sp"
+        android:layout_below="@+id/superSix1"
+        android:fontFamily="serif"
+        android:padding="4dp"
+        android:textStyle="bold"
+
+
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Final Match: LUSC VS DEPT CIVIL"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView4"
+        android:fontFamily="serif"
+        android:padding="4dp"
+        android:height="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Wanna see the winner??? "
+        android:textSize="24sp"
+        android:layout_below="@+id/textView3"
+        android:fontFamily="serif"
+        android:layout_margin="20dp"
+        android:height="30dp"
+
+        />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CLICK BELLOW"
+        android:layout_below="@id/textView5"
+        android:padding="15dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+
+        />
+
+
+    <Button
+        android:id="@+id/Registration_Now_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Winner here!!" />
+
+
+
+
+</RelativeLayout>
